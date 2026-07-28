@@ -42,3 +42,7 @@ button {
 button:hover {
     background-color: #d0d0d0d6;
 }
+.operator {
+    background-color: orange;
+    color: white;
+}
