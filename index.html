@@ -4,46 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <button id="themeBtn">🌙 Dark Mode</button>
-    <div class="calculator">
-        <input type="text" id="display" readonly>
-        <div class="buttons">
-           
-            <button class="btn action">AC</button>
-            <button class="btn">DEL</button>
-            <button class="btn operator">%</button>
-            <button class="btn operator">/</button>
 
+    <div class="app">
 
+        <button id="themeBtn">🌙 Dark Mode</button>
 
-            <button class="btn">7</button>
-            <button class="btn">8</button>
-            <button class="btn">9</button>
-            <button class="btn operator">*</button>
+        <div class="calculator">
 
-            <button class="btn">4</button>
-            <button class="btn">5</button>
-            <button class="btn">6</button>
-            <button class="btn operator">-</button>
+            <input type="text" id="display" readonly>
 
-            <button class="btn">1</button>
-            <button class="btn">2</button>
-            <button class="btn">3</button>
-            <button class="btn operator">+</button>
+            <div class="buttons">
 
-            <button class="btn">0</button>
-            <button class="btn">.</button>
-            
-            <button class="btn equal">=</button>
+                <button class="btn action">AC</button>
+                <button class="btn action">DEL</button>
+                <button class="btn operator">%</button>
+                <button class="btn operator">/</button>
+
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn operator">*</button>
+
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn operator">-</button>
+
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn operator">+</button>
+
+                <button class="btn">0</button>
+                <button class="btn">.</button>
+
+                <button class="btn equal">=</button>
+
+            </div>
+
         </div>
-    </div>
-    <h3>History</h3>
-<div id="history"></div>
 
-<button id="clearHistory">Clear History</button>
+        <div class="history-section">
+
+            <h3>History</h3>
+
+            <div id="history"></div>
+
+            <button id="clearHistory">
+                Clear History
+            </button>
+
+        </div>
+
+    </div>
+
     <script src="script.js"></script>
+
 </body>
 </html>
