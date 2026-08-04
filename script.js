@@ -197,3 +197,24 @@ themeBtn.addEventListener(
 
     }
 );
+const copyBtn =
+    document.getElementById("copyBtn");
+
+copyBtn.addEventListener(
+    "click",
+    function(){
+
+        if(display.value !== ""){
+
+            navigator.clipboard.writeText(
+                display.value
+            );
+
+            alert(
+                "Result Copied!"
+            );
+
+        }
+
+    }
+);
